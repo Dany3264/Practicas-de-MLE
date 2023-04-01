@@ -1,0 +1,50 @@
+DOCUMENTACIÓN DE GIT COMPLETA: https://git-scm.com/docs/
+
+Lista de comandos GIT:
+
+PWD: Muestra la carpeta en la que estamos actualmente.
+CD (Change directory): Nos lleva a una carpeta específica.
+/: Home.
+ls: Muestra los archivos de la carpeta en la que estamos.
+ls -l: Muestra todos los archivos en forma de lista.
+ls -al: Muestra todos los archivos en forma de lista incluyendo los ocultos.
+(..): regresa a la carpeta anterior.
+mkdir: Crea una carpeta.
+touch: Crea un archivo de texto simple (en la carpeta que nos encontremos)
+cat: Muestra el contenido del archivo de texto.
+clear: Limpia la terminal.
+history: Muestra todos los comandos que hemos introducido enlistads con un número.
+!###: reutilizamos el comando listado en history por medio de su numero de uso.
+--help: Muestra todas las formas de utilizar X comando.
+rm: Remueve el archivo de forma permanente.
+
+Lista de comandos GIT repository:
+git: Al usarlo al inicio de el input, nos referimos diretamente a operaciones en el repository.
+git init: Crea el repository en la carpeta, crea una carpeta oculta llamada .git/ (puede verse si se creo correctamente con ls -al)
+git status: Muestra todos los archivos que han sido modificados y los cuales no estan agregados al stack.
+git add """": añadimos un archivo en concreto al stack.
+git add (.): Añade TODOS los archivos al stack.
+git rm """": Remueve algun archivo del stack.
+git rm --cahed: remueve todos los archivos en el stack (cached significa que están en la memoria RAM)
+git commit: Graba los cambios hechos al archivo dejando una dirección de commit y por quien fue hecho ese cambio.
+git commit -m "//////": Deja un mensaje para el commit hecho.
+git commit -am "////////": Añade un archivo y adjunta un mensaje al mismo tiempo.
+git branch "///////////": Crea una rama.
+git diff "//////" "//////": muestra la diferencia, que fue agregado/eliminado entre uno y otro commit. 
+
+UN COMMIT NO SE PUEDE MANDAR SIN UN MENSAJE.
+Si mandamos un "git commit" tal cual, nos abrirá un edit de codigo en base texto llamado VIM.
+presionamos ESC + I y entra en modo "INSERTAR", ponemos el mensaje y para grabarlo/salir presionamos ESC + SHIFT + Z + Z.
+
+Configuración y Configuración de Usuario:
+git config: Muestra la lista de Configuraciones.
+git config --list: Muestra Configuración del Usuario.
+git config --global "": Configura un apartado en concreto.
+git config --global user.name "///////": Cambia el nombre del usuario.
+git config --global user.email "///////": Cambia el correo del usuario. 
+ES NECESARIO CONFIGURAR EL NOMBRE Y CORREO PARA PODER HACER COMMIT.
+
+CHECKOUTS:
+
+git checkout "nombre de branch": Cambia de rama.
+

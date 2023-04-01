@@ -1,0 +1,38 @@
+[1mdiff --git a/practica b/practica[m
+[1mnew file mode 100644[m
+[1mindex 0000000..824dd42[m
+[1m--- /dev/null[m
+[1m+++ b/practica[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32mPWD: muestra la direccion de la carpeta en la que estamos actualmente[m
+[32m+[m[32mESTE ES EL PRIMER COMMIT[m
+[32m+[m[32mCD: nos lleva al una carpeta en concreto.[m
+[32m+[m[32m/: significa HOME (linux)[m
+[32m+[m[32mls: muestra todos los archivos enlistados de la carpeta a excepcion de los ocultos.[m
+[32m+[m[32mls -al: muestra incluyendo los archivos ocultos, todos los contenidos de la carpeta.[m
+[32m+[m[32mESTE ES EL SEGUNDO COMMIT.[m
+[32m+[m[32m"".."": Regresa a la carpeta anterior.[m
+[32m+[m[32mMKDIR : crea una carpeta.[m
+[32m+[m[32mtouch : crea un archivo vacio.[m
+[32m+[m[32mcat : muestra el texto contenido en el archivo.[m
+[32m+[m[32mclear : limpia la terminal.[m
+[32m+[m[32mhistory : muestra los comandos anteriormente usados.[m
+[32m+[m[32m"! ##"": usa el comando especifico de history[m
+[32m+[m[32mRM: REMOVE, CUIDADO.[m
+[32m+[m[32mESTE ES EL TERCER COMMIT.[m
+[1mdiff --git a/practica.txt b/practica.txt[m
+[1mindex 653e16f..726cdb9 100644[m
+[1m--- a/practica.txt[m
+[1m+++ b/practica.txt[m
+[36m@@ -4,8 +4,4 @@[m [mCD: nos lleva al una carpeta en concreto.[m
+ /: significa HOME (linux)[m
+ ls: muestra todos los archivos enlistados de la carpeta a excepcion de los ocultos.[m
+ ls -al: muestra incluyendo los archivos ocultos, todos los contenidos de la carpeta.[m
+[31m-ESTE ES EL SEGUNDO COMMIT.[m
+[31m-[m
+[31m-1er cambio para comparar y show.[m
+[31m-[m
+[31m-2do cambio de regreso en versiones y MERGE solucionando conflictos[m
+\ No newline at end of file[m
+[32m+[m[32mESTE ES EL SEGUNDO COMMIT[m
+\ No newline at end of file[m

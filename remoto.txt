@@ -1,0 +1,24 @@
+
+GitHub es el servidor remoto a donde estaremos descargando y anexando los cambios siguiendo el mismo flijo de trabajo regular.
+
+git CLONE url:
+nos permite traer a nuestro disco local una copia exacta del master y repositorio que esta en github u otro servidor remoto.
+
+git push:
+una vez terminados los cambios que necesitabamos hacer a el master colectivo del remoto.
+utilizamos el comando git push para anexar esos cambios permanentes a el masterverdadero en el servidor remoto.
+
+git Fetch:
+Al tener un repositorio remoto, y alguien ha actualizado alguien en el equipo de trabajo, utilizamos el fetch para descargar esa actualizacion
+SOLO al repositorio.
+
+git MERGE:
+una vez que hemos descargado la actualizacion con fetch, si deseamos mandarlo al directorio de trabajo utilizamos el comando Merge.
+
+git Pull:
+Este comando fusiona el comando merge y fetch, descarga la actualizacion del servidor remoto y automaticamente se anexa a nuestra carpeta.
+el uso de cada uno de estos tres dependera exclusivamente de cada cambios
+
+git commit -a:
+este comando hace commit automaticamente de los cambios mas solo funciona con los archivos ya creados, no con los archivos nuevos.
+si solo dejamos el comando como "-a" va a disparar el editor VIM
