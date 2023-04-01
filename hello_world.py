@@ -1,5 +1,5 @@
 message = "Hello python World!"
 print(message)
 
-mesage = "hello python course World"
-print(mesage)
+prueba_de_push = "Modifique el codigo en GitHub"
+print(prueba_de_push)
