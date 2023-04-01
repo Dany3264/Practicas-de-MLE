@@ -1,0 +1,24 @@
+Comandos intermedios de git:
+
+git pull origin master: Traerá todo desde el remote.
+git log --all: mostrara todo lo que se ha hecho
+git log --all --graph --decorate: mostrar todo mucho mas comprimido, ramas y cambios.
+
+Crear un alias:
+
+alias ////=git log --all --graph --decorate
+
+Crear un tag:
+
+Copias el hash y:
+
+git tag -v/// -m "/////////////" NUMERO DE HASH
+
+ver los tags:
+git show-ref --tags
+
+Borrar un Tag:
+
+DESDE BASH: git tag -d /////
+DESDE GITHUB: git push origin :refs/tags/NOMBRE DE Tag
+
